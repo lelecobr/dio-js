@@ -1,4 +1,5 @@
-const { gets, print } = require('./funcoes-auxiliares');
+const { gets, print, verificaMaior } = require('./funcoes-auxiliares');
 
-print(gets());
+const entradas = [5, 10, 12, 98, 23, 120];
 
+verificaMaior(entradas);
